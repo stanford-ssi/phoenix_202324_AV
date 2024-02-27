@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "COTS_boards")(type "KiCad")(uri "${KIPRJMOD}/COTS_boards.kicad_sym")(options "")(descr ""))
+)
