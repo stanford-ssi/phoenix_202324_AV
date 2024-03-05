@@ -1,4 +1,4 @@
-23052768653747029
+23054479562236134
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2520,6 +2520,13 @@ COTS_Boards
 2
 2
 COTS_Boards
+2828362
+282836-2-2
+Connector
+0
+2
+2
+COTS_Boards
 BAT_1048P
 
 
@@ -2553,7 +2560,7 @@ EggtimerQuark
 
 0
 6
-5
+6
 COTS_Boards
 Featherweight_GPS
 
@@ -2562,12 +2569,12 @@ Featherweight_GPS
 4
 3
 COTS_Boards
-ScrewTerminals_2828362
-282836-2-2
-Connector
+TE_282837-4
+
+
 0
-2
-2
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
