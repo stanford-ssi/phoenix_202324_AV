@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/annabellejayadinata/phoenix_202324_AV/AVcarrierBoard/AVcarrierBoard.kicad_sch</source>
+    <date>Monday, March 11, 2024 at 09:42:15 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AVcarrierBoard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Batt_2S</value>
+      <footprint>COTS_Boards:BAT_1048P</footprint>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>612f365b-4ac1-48b7-9617-05698e085b07</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>Batt_1S</value>
+      <footprint>COTS_Boards:1042P_KEY</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>794e3b9f-42eb-49a9-85ef-53dba329dbcd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>MainRecov</value>
+      <footprint>COTS_Boards:TE_282837-4</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8003c3b4-8dbd-4c43-9697-1b6e444e8b8d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DrogRecov</value>
+      <footprint>COTS_Boards:TE_282837-4</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ecc8c7-0205-45e6-98d8-9605e65b8f2c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Mech_Switch</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9659d0da-45f5-4b11-ab26-c56a0cce7c60</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Mech_Switch</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>941a1fa6-5043-4e8e-b4d4-18358e8a6e4a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>462070006</value>
+      <footprint>CON_462070006</footprint>
+      <datasheet>462070006</datasheet>
+      <libsource lib="COTS_boards" part="462070006" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_keywords" value="462070006"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faabd4d8-d85c-4124-a22f-1b95368e47be</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>EggfinderMini/FeatherGPS</value>
+      <footprint>COTS_Boards:Featherweight_GPS</footprint>
+      <libsource lib="COTS_boards" part="EggfinderMini" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8c9583c-eb7b-4b69-b1d5-7d4d3ca1c607</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>EggtimerQuark</value>
+      <footprint>COTS_Boards:EggtimerQuark</footprint>
+      <libsource lib="COTS_boards" part="EggtimerQuark" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a0b41e7-05ee-4d35-a57e-82b153856650</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Blue_Raven</value>
+      <footprint>COTS_Boards:Blue Raven</footprint>
+      <libsource lib="COTS_boards" part="Blue_Raven" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0177a730-0095-4c18-8854-f9e28bdfa7d5</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>WiFi Switch</value>
+      <footprint>COTS_Boards:Eggtime_WiFi_switch</footprint>
+      <datasheet>https://eggtimerrocketry.com/eggtimer-mini-switch-support/</datasheet>
+      <libsource lib="COTS_boards" part="Eggtimer_WiFi_switch" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_keywords" value="Eggtimer, WiFi switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd6701b2-36fb-4b23-aaf2-97e2b8570d81</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>WiFi Switch</value>
+      <footprint>COTS_Boards:Eggtime_WiFi_switch</footprint>
+      <datasheet>https://eggtimerrocketry.com/eggtimer-mini-switch-support/</datasheet>
+      <libsource lib="COTS_boards" part="Eggtimer_WiFi_switch" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AVcarrierBoard.kicad_sch"/>
+      <property name="ki_keywords" value="Eggtimer, WiFi switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fe16504-b5f9-45c1-9032-89cd261622c1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="COTS_boards" part="462070006">
+      <docs>462070006</docs>
+      <footprints>
+        <fp>CON_462070006</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">462070006</field>
+        <field name="Footprint">CON_462070006</field>
+        <field name="Datasheet">462070006</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="COTS_boards" part="Blue_Raven">
+      <fields>
+        <field name="Reference">*</field>
+        <field name="Value">Blue_Raven</field>
+        <field name="Footprint">Library:Blue Raven</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+        <pin num="3" name="Apo" type="input"/>
+        <pin num="4" name="Main" type="input"/>
+        <pin num="5" name="3rd" type="input"/>
+        <pin num="6" name="4th" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="COTS_boards" part="EggfinderMini">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EggfinderMini</field>
+        <field name="Footprint">COTS_Boards:EggfinderMini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="COTS_boards" part="EggtimerQuark">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EggtimerQuark</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MAIN1" type="output"/>
+        <pin num="2" name="MAIN2" type="output"/>
+        <pin num="3" name="DROG1" type="output"/>
+        <pin num="4" name="DROG2" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="COTS_boards" part="Eggtimer_WiFi_switch">
+      <docs>https://eggtimerrocketry.com/eggtimer-mini-switch-support/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WiFi Switch</field>
+        <field name="Datasheet">https://eggtimerrocketry.com/eggtimer-mini-switch-support/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Batt+" type="power_in"/>
+        <pin num="2" name="Batt-" type="power_in"/>
+        <pin num="3" name="Out+" type="power_out"/>
+        <pin num="4" name="Out-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="COTS_boards">
+      <uri>/Users/annabellejayadinata/phoenix_202324_AV/AVcarrierBoard/COTS_boards.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V8">
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="+7.5V">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="COTSWIFI+">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="Batt+" pintype="power_in"/>
+    </net>
+    <net code="4" name="DROG1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="DROG1" pintype="output"/>
+    </net>
+    <net code="5" name="DROG2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DROG2" pintype="output"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="Batt-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="Out-" pintype="power_out"/>
+    </net>
+    <net code="7" name="GND2">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="Gnd" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="Batt-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="Out-" pintype="power_out"/>
+    </net>
+    <net code="8" name="MAIN1">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="MAIN1" pintype="output"/>
+    </net>
+    <net code="9" name="MAIN2">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="MAIN2" pintype="output"/>
+    </net>
+    <net code="10" name="Raven3RD">
+      <node ref="J6" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J6" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="3rd" pintype="input"/>
+    </net>
+    <net code="11" name="Raven4TH">
+      <node ref="J6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="4th" pintype="input"/>
+    </net>
+    <net code="12" name="RavenAPO">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="Apo" pintype="input"/>
+    </net>
+    <net code="13" name="RavenMAIN">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="Main" pintype="input"/>
+    </net>
+    <net code="14" name="SRADWIFI+">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="Batt+" pintype="power_in"/>
+    </net>
+    <net code="15" name="WIFI_PWR_1S">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J6" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="Out+" pintype="power_out"/>
+    </net>
+    <net code="16" name="WIFI_PWR_2S">
+      <node ref="U1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="Out+" pintype="power_out"/>
+    </net>
+  </nets>
+</export>
