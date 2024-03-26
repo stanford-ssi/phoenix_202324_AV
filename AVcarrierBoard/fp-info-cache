@@ -1,4 +1,4 @@
-23057920740566394
+23063058298253732
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2517,7 +2517,7 @@ COTS_Boards
 
 1042P 
 0
-2
+4
 2
 COTS_Boards
 2828362
@@ -2580,10 +2580,24 @@ Featherweight_GPS
 
 
 0
-4
-3
+2
+2
 COTS_Boards
 TE_282837-4
+
+
+0
+4
+4
+COTS_Boards
+TE_282837-4-2
+
+
+0
+4
+4
+COTS_Boards
+TE_282837-4_1.65mm
 
 
 0
@@ -34450,6 +34464,13 @@ Connector_PinHeader_2.54mm
 PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right
 surface-mounted straight pin header, 1x02, 2.54mm pitch, single row, style 2 (pin 1 right)
 Surface mounted pin header SMD 1x02 2.54mm single row style2 pin1 right
+0
+2
+2
+Connector_PinHeader_2.54mm
+PinHeader_1x02_P2.97mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
 0
 2
 2
