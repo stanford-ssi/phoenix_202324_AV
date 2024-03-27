@@ -3157,8 +3157,8 @@
   (gr_text "Phoenix 1.0\n" (at 265.7348 119.7864) (layer "B.SilkS") (tstamp 54947b01-989c-469a-b51b-b4b6f1c5c746)
     (effects (font (size 3 3) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "Annabelle Jayadinata, Sam Chen, Ethan Brinser" (at 265.2776 121.8692) (layer "B.SilkS") (tstamp a608e3b5-8419-4613-9cc4-0656ac68bf7e)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  (gr_text "Annabelle Jayadinata, Sam Chen, Ethan Brinser, Victor Huynh" (at 265.2776 121.8692) (layer "B.SilkS") (tstamp a608e3b5-8419-4613-9cc4-0656ac68bf7e)
+    (effects (font (size 0.75 0.75) (thickness 0.125)) (justify left bottom mirror))
   )
 
   (via (at 243.2812 80.772) (size 3) (drill 1) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp d30864b6-e81a-4fd5-a6da-9b529d837da0))
