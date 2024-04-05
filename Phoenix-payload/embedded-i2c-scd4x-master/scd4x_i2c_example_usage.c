@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <stdio.h>  // printf
+#include <stdio.h>  // printf (and fprintf)
 
 #include "scd4x_i2c.h"
 #include "sensirion_common.h"
@@ -41,6 +41,20 @@
 //#define printf(...)
 
 int main(void) {
+
+    // Create a file pointer for writing. Check files don't overwrite each other
+    FILE *fptr;
+    char filename[22]; // length of filename is 22
+    int idx = 1;
+    // Increment filename index if name already exists. Current maximum is 999
+    filename = sprintf(filename, "co2_sensor_data-%03d.txt", idx); // %03d gives idx in 3 digits (with leading 0s)
+    while (fptr = fopen(filename, "r")) { // filename already exists
+        fclose(filename);
+        idx++;
+        filename = sprintf(filename, "co2_sensor_data-%03d.txt", idx); // rename file with new index
+    }
+    // here, filename should be a string that does not correspond to any of the exisintg filenames
+
     int16_t error = 0;
 
     sensirion_i2c_hal_init();
@@ -92,11 +106,18 @@ int main(void) {
         } else if (co2 == 0) {
             printf("Invalid sample detected, skipping.\n");
         } else {
-            printf("CO2: %u\n", co2);
-            printf("Temperature: %d m°C\n", temperature);
-            printf("Humidity: %d mRH\n", humidity);
+            // Once all setup is ready and no errors are called, write to file
+            fptr = fpoen("co2_sensor_data.txt", "w");
+
+            // Print data into file
+            fprintf(fptr, "CO2: %u\n", co2);
+            fprintf(fptr, "Temperature: %d m°C\n", temperature);
+            fprintf(fptr, "Humidity: %d mRH\n", humidity);
         }
     }
+
+    // Close the file
+    fclose(fptr);
 
     return 0;
 }
