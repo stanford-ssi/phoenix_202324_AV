@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "COTS_Boards")(type "KiCad")(uri "${KIPRJMOD}/COTS_Boards.pretty")(options "")(descr ""))
   (lib (name "2.97mmConnector")(type "KiCad")(uri "/Users/shuanlinchen/Documents/GitHub/phoenix_202324_AV/2.97mmConnector.pretty")(options "")(descr ""))
+  (lib (name "2.97mmSwitchConnector")(type "KiCad")(uri "${KIPRJMOD}/2.97mmSwitchConnector.pretty")(options "")(descr ""))
 )
