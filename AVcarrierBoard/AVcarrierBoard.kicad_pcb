@@ -86,11 +86,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk true)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerbers 0422/")
+      (outputdirectory "/Users/annabellejayadinata/Downloads/")
     )
   )
 
